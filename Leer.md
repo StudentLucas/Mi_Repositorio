@@ -1,7 +1,12 @@
-En ProyectoCalculadora se encontrara 2 subcarpetas Build y Dist.
+La calculadora fue desarrollado en visual Studio Code con el Lenguaje de programación Python.
 
-A mi proyecto de Python lo converti en un archivo distribuible para que se pueda ejecutar en escritorio de Windows.
+Al proyecto lo converti en un archivo distribuible para que se pueda ejecutar en cualquier escritorio donde tenga Windows.
 
-El archivo ejecutable se encuentra en la carpeta "dist"
+Dentro de la carpeta ProyectoCalculadora se encontraran 2 subcarpetas "Build" y "Dist".
 
-El ejecutable es el archivo main.exe, ejecutando el archivo ya podra interactuar con el programa. 
+El archivo ejecutable se encuentra en la carpeta "Dist" con el nombre main.exe.
+
+Una vez ejecutado el archivo main.exe ya se podra interactuar con el programa a traves de la consola de Windows.
+
+
+PSDT : Para Descargar el proyecto click en CODE >>>> Download ZIP .
