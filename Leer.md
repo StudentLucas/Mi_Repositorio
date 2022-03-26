@@ -1,5 +1,7 @@
-Mi proyecto lo converti en un archivo distribuible para que se pueda ejecutar en escritorio de Windows.
+En ProyectoCalculadora se encontrara 2 subcarpetas Build y Dist.
 
-El archivo ejecutable se encuentra en la carpeta Dist - Main.exe
+A mi proyecto de Python lo converti en un archivo distribuible para que se pueda ejecutar en escritorio de Windows.
 
-Ejecutando el main.exe ya podra interactuar con el programa que hice 100% con el lenguaje de python....
+El archivo ejecutable se encuentra en la carpeta "dist"
+
+El ejecutable es el archivo main.exe, ejecutando el archivo ya podra interactuar con el programa. 
