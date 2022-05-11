@@ -20,7 +20,6 @@ while not nombre.isalpha() and nombre.isalnum() or nombre.isnumeric() or nombre 
     
     if nombre == '' or nombre.isspace():
         
-        #limpiar_consola()
         
         print                                                      ('  │              ╔═══════════════╦══════════════════════════════════════════╗             │') 
         print                                                      ('  │              ║ ¡¡ Error !!   ║  No se detecto ningun dato ingresado     ║             │'.format(nombre))
@@ -30,7 +29,6 @@ while not nombre.isalpha() and nombre.isalnum() or nombre.isnumeric() or nombre 
     
     else:
          
-        #limpiar_consola()
         time.sleep(0.35)
 
         print                                                      ('  │              ╔═══════════════╦══════════════════════════════════════════╗             │')
