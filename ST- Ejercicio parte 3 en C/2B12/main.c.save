@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <conio2.h>
+
+int main()
+{
+    int c,d=80;
+    textcolor(LIGHTGREEN);
+    for(c=1;c>=26;c=c-1){
+        d=d-1;
+        gotoxy(d,c);
+        printf("*");
+    }
+    printf("\n\n");
+    system("pause");
+    return 0;
+}
