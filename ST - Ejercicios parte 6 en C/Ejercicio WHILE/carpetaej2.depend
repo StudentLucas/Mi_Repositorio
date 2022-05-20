@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1521247270 source:c:\users\et21\desktop\carpetaej2\main.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	<conio2.h>
-
