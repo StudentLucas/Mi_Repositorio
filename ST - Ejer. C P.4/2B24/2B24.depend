@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1498605860 source:e:\algoritmos\ejercicios\2b24\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio2.h>
+
