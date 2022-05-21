@@ -1,4 +1,4 @@
-Subi todos los proyectos que realice en la secundaria técnica 
+Todos los proyectos subidos son los que realice en la secundaria técnica 
 
 IDE utilizados para programar en C  ---- > CODE BLOCKS
 
