@@ -1,0 +1,36 @@
+
+   Punto >  Listar nombre y teléfono de los usuarios con teléfono que no sea de la marca LG o SAMSUNG
+Solucion >  SELECT nombre, telefono FROM tblusuarios WHERE not marca IN ("SAMSUNG","LG") 
+
+   Punto >  Listar el login y teléfono de los usuarios con compañia telefónica IUSACELL
+Solucion >  SELECT usuario AS login, telefono FROM tblusuarios WHERE compañia = "IUSACELL"
+
+   Punto >  Listar el login y teléfono de los usuarios con compañia telefónica que no sea TELCEL
+Solucion >  SELECT usuario AS login, telefono FROM tblusuarios WHERE not compañia = "TELCEL"
+
+   Punto >  Calcular el saldo promedio de los usuarios que tienen teléfono marca NOKIA
+Solucion >  SELECT AVG(saldo) FROM tblusuarios WHERE marca = "NOKIA" 
+
+   Punto >  Listar el login y teléfono de los usuarios con compañia telefónica IUSACELL o AXEL
+Solucion >  SELECT usuario AS login, telefono FROM tblusuarios WHERE compañia IN ("IUSACELL","AXEL")
+
+   Punto >  Mostrar el email de los usuarios que no usan yahoo
+Solucion >  SELECT email FROM tblusuarios WHERE not email like ("%@yahoo.com")
+
+   Punto >  Listar el login y teléfono de los usuarios con compañia telefónica que no sea TELCEL o IUSACELL
+Solucion >  SELECT usuario as login, telefono FROM tblusuarios WHERE not compañia in ("TELCEL", "IUSACELL")
+
+   Punto >  Listar el login y teléfono de los usuarios con compañia telefónica UNEFON
+Solucion >  SELECT usuario as login, telefono FROM tblusuarios WHERE compañia = "UNEFON"
+
+   Punto >  Listar las diferentes marcas de celular en orden alfabético descendentemente
+Solucion >  SELECT marca FROM tblusuarios ORDER BY marca desc	
+  
+   Punto >  Listar las diferentes compañias en orden alfabético aleatorio   
+Solucion >  SELECT compañia FROM tblusuarios ORDER BY RAND(compañia)
+ 
+   Punto >  Listar el login de los usuarios con nivel 0 o 2
+Solucion >  SELECT usuario AS login FROM tblusuarios WHERE nivel IN ("0","2")
+ 
+   Punto >  Calcular el saldo promedio de los usuarios que tienen teléfono marca LG
+Solucion >  SELECT AVG(saldo) AS promedio FROM tblusuarios WHERE marca = "LG"

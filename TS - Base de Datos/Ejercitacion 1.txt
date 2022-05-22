@@ -1,0 +1,35 @@
+Punto >  Listar los nombres de los usuarios
+Solucion >  SELECT nombre FROM tblusuarios 
+
+   Punto >  Calcular el saldo máximo de los usuarios de sexo “Mujer”
+Solucion >  SELECT MAX(saldo) FROM tblusuarios WHERE sexo = "M"
+
+   Punto >  Listar nombre y teléfono de los usuarios con teléfono NOKIA, BLACKBERRY o SONY
+Solucion >  SELECT nombre, telefono FROM tblusuarios WHERE marca IN ("NOKIA","BLACKBERRY","SONY")
+
+   Punto >  Contar los usuarios sin saldo o inactivos
+Solucion >  SELECT COUNT(usuario) FROM tblusuarios WHERE saldo = 0 OR NULL 
+
+   Punto >  Listar el login de los usuarios con nivel 1, 2 o 3
+Solucion >  SELECT usuario AS login FROM tblusuarios WHERE nivel IN ("1","2","3")
+
+   Punto >  Listar los números de teléfono con saldo menor o igual a 300
+Solucion >  SELECT telefono FROM tblusuarios WHERE saldo <= 300
+
+   Punto >  Calcular la suma de los saldos de los usuarios de la compañia telefónica NEXTEL
+Solucion >  SELECT SUM(saldo) FROM tblusuarios WHERE compañia = "NEXTEL"
+
+   Punto >  Contar el número de usuarios por compañía telefónica
+Solucion >  SELECT COUNT(usuario) FROM tblusuarios GROUP BY compañia
+
+   Punto >  Contar el número de usuarios por nivel
+Solucion >  SELECT COUNT(usuario) FROM tblusuarios GROUP BY nivel 	
+  
+   Punto >  Listar el login de los usuarios con nivel 2   
+Solucion >  SELECT usuario as login FROM tblusuarios WHERE nivel = 2
+ 
+   Punto >  Mostrar el email de los usuarios que usan gmail
+Solucion >  SELECT nombre FROM tblusuarios WHERE email LIKE ("%@gmail.com")
+ 
+   Punto >  Listar nombre y teléfono de los usuarios con teléfono LG, SAMSUNG o MOTOROLA
+Solucion >  SELECT nombre,telefono FROM tblusuarios WHERE marca IN ("LG","SAMSUNG","MOTOROLA")
