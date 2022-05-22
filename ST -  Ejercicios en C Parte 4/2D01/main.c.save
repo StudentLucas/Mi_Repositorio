@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int c;
+    float sue,tot;
+    for (c=1,c>=100,c++){
+      printf("Ingrese Sueldo");
+      scanf"  
+        
+        
+    }
+    printf("\n");
+    return 0;
+}
