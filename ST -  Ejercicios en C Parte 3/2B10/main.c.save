@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <conio2.h>
+
+int main()
+{
+    int c;
+    textcolor(LIGHTRED);
+    for(c=20;c<=100;c=c+1){
+        gotoxy(c,10);
+        printf("*");
+    }
+    for(c=20;c<=30;c=c+1){
+        gotoxy(20,c);
+        printf("*");
+    }
+    printf("\n\n");
+    system("pause");
+    return 0;
+}
