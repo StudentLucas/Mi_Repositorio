@@ -1,0 +1,84 @@
+* {
+	 margin:0px;
+	 padding:0px;
+ }
+ body {
+          background-image: url("../imagenes/fondo.jpg");
+          /*background-size: 100% 100%;
+          background-attachment: fixed;*/
+		  background-size: cover;
+          background-attachment: fixed;
+		  background-repeat:no-repeat;
+}
+div#Menu  {
+    width: 200px;
+    margin: auto;
+}
+div#Menu ul{
+  list-style:none;
+}
+div#Menu ul li{
+    margin-top:15px;
+    font-family:impact;
+    font-size:20px;
+    background-color:#2c93c6;
+    width:160px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius:20px 20px 20px 20px;
+    padding-left:20px;
+    box-shadow:3px 6px 3px;
+}
+
+div#Menu ul li:hover {
+    background-color: #31b8da;
+}
+div#Menu a{
+  color:red;
+  text-decoration:none;
+}
+
+div#Titulo{
+  text-align:center;
+  padding-top:270px;
+}
+
+div#Subtitulo{
+  text-align:center;
+}
+
+h1{
+    color: #131313;
+    letter-spacing: .15em;
+    font-size:60px;
+    text-shadow: 
+      1px -1px 0 #767676, 
+      -1px 2px 1px #737272, 
+      -2px 4px 1px #767474, 
+      -3px 6px 1px #787777, 
+      -4px 8px 1px #7b7a7a, 
+      -5px 10px 1px #7f7d7d, 
+      -6px 12px 1px #828181, 
+      -7px 14px 1px #868585, 
+      -8px 16px 1px #8b8a89, 
+      -9px 18px 1px #8f8e8d, 
+      -10px 20px 1px #949392; 
+}
+h3{
+    color: #131313;
+    letter-spacing: .15em;
+    font-size:25px;
+    text-shadow: 
+      1px -1px 0 #767676, 
+      -1px 2px 1px #737272, 
+      -2px 4px 1px #767474, 
+      -3px 6px 1px #787777, 
+      -4px 8px 1px #7b7a7a, 
+      -5px 10px 1px #7f7d7d, 
+      -6px 12px 1px #828181, 
+      -7px 14px 1px #868585, 
+      -8px 16px 1px #8b8a89, 
+      -9px 18px 1px #8f8e8d, 
+      -10px 20px 1px #949392;
+}
+
