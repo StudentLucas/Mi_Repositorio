@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Respuesta</title>
+</head>
+<body>
+    <form action="actividad_arrays.php" method="post">
+        <h1>Actividad N°4 : Arrays.</h1> <br>
+        <label for="dia">Dia:</label>
+        <select name="eleccion">
+            <option value="Lunes">Lunes</option>
+            <option value="Martes">Martes</option>
+            <option value="Miercoles">Miercoles</option>
+            <option value="Jueves">Jueves</option>
+            <option value="Viernes">Viernes</option>
+        </select>
+        <label for="rutina">Rutina:</label>
+        <select name="rutina">
+            <option value="Pecho" name="rutina[]">Pecho</option>
+            <option value="Espalda" name="rutina[]">Espalda</option>
+            <option value="Hombros" name="rutina[]">Hombros</option>
+            <option value="Piernas" name="rutina[]">Piernas</option>
+            <option value="Glúteos" name="rutina[]">Glúteos</option>
+            <option value="Bíceps" name="rutina[]">Bíceps</option>
+            <option value="Triceps" name="rutina[]">Triceps</option>
+            <option value="Pantorillas" name="rutina[]">Pantorillas</option>
+        </select>
+        <input type="submit" name="procesar" value="Enviar">
+    </form>
+</body>
+</html>
